@@ -34,6 +34,21 @@
 
 ---
 
+# INSTALL on Pardus/Debian/Ubuntu
+
+> sudo apt install python3 python3-pip3 python3-setuptools libxml2-dev virt-viever -y
+> pip3 install --user -r requirements.txt
+
+> cp ovirt_vdi.tar.gz ~/
+> tar -xzvf  ovirt_vdi.tar.gz
+> cd ovirt_vdi
+> ./oVirt_Client-beta.py
+
+** Edit config.cfg **
+** Add new ovirt-ca.pem into conf/pki/ **
+
+---
+
 # ThinClient Image (CloneZilla)
 
 I made a custom OS by using CentOS7 minimal.  
